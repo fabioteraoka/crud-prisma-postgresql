@@ -5,7 +5,7 @@ import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 
 type Data = {
-  name: string;
+  title: string;
 };
 
 export default async function handler(
